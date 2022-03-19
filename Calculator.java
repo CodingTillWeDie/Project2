@@ -47,8 +47,8 @@ public class Calculator
 
     /** Converts an infix expression to an equivalent postfix expression
      * by using a LinkedStack class instance.
-     @param infix an infix expression that was given in project prompt.
-     @return A postfix expression.*/
+     @param infix An infix expression that was given in project prompt.
+     @return A postfix expression. */
     public static String convertToPostfix(String infix)
     {
         LinkedStack<Character> operatorStack = new LinkedStack<>();
@@ -140,7 +140,7 @@ public class Calculator
 
     /** Evaluates a postfix expression by using a ResizableArrayStack class instance.
      @param postfix A postfix expression.
-     @return An integer value obtained from evaluating the postfix expression. */
+     @return An integer value obtained after evaluating the postfix expression. */
     public static int evaluatePostfix(String postfix)
     {
         ResizableArrayStack<Integer> valueStack = new ResizableArrayStack<>();
