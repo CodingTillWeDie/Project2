@@ -109,6 +109,10 @@ class CalculatorTest extends Calculator{
         String infix25 = "a^b/c";
         String postfix25 = convertToPostfix(infix25);
         System.out.println(postfix25);
+        
+        String infix26 = "a^(b*c)";
+        String postfix26 = convertToPostfix(infix26);
+        System.out.println(postfix26);
     }
 
     @Test
@@ -216,7 +220,10 @@ class CalculatorTest extends Calculator{
         String postfix25 = "ab^c/";
         int result25 = evaluatePostfix(postfix25);
         System.out.println(result25);
-
+        
+        String postfix26 = "abc*^";
+        int result26 = evaluatePostfix(postfix26);
+        System.out.println(result26);
 
     }
 }
