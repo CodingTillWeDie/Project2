@@ -3,4 +3,4 @@
 3. Here is the link to [the Javadoc's start page](https://codingtillwedie.github.io/Project2/package-summary.html). 
 4. Here is the link to [our screencast video]() on YouTube.
 
-// NOTE: We are assuming that infix expressions will only contain positive integers within the expression and that the infix expressions will always be valid. Thus, the number of open parenthesis and close parenthesis will always be the same. Although only addition (+), subtraction (-), multiplication (*), and division (/) operators were necessary for this project, we added exponentiation (^) as our additional feature. 
+// NOTE: We are assuming that infix expressions will only contain positive integers within the expression and that the infix expressions will always be valid. Thus, the number of open parentheses and close parentheses will always be the same. Although only addition (+), subtraction (-), multiplication (*), and division (/) operators were necessary for this project, we added exponentiation (^) as our additional feature. 
